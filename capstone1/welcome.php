@@ -1,18 +1,24 @@
-<?php 
+<?php
 
 session_start();
 
 if (!isset($_SESSION['username'])) {
     header("Location: index.php");
 }
-
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome<?php
+<title>Welcome</title>
+</head>
+<body>
+
+<h1>WELCOME!!!!</h1>
+<p>HOTDOG SI MARTY BAHO IGOT2 HAHAHAHAH</p>
+
+</body>
+</html>
+
 
 
